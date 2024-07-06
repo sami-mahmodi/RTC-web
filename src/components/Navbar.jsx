@@ -24,7 +24,7 @@ const LinkRoute = ({ path, pathName }) => (
   </Link>
 );
 
-function Header() {
+function Navbar() {
   return (
     <div className="wrapper">
         <div>
@@ -40,4 +40,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Navbar;
