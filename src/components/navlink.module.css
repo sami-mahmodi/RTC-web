@@ -10,11 +10,11 @@
 
 .link:hover {
   color: #fff;
-  background: var(--primary-color);
+  background: yellow;
 }
 
 .active {
-  background: var(--secondary-color);
+  background: red;
   color: #fff;
   margin-left: 0.5rem;
 }
