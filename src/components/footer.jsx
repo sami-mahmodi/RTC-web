@@ -21,11 +21,17 @@ export default function Footer() {
         <Row gutter={[24, 24]}>
           <Col span={24} md={8}>
          
+          <div className={styles.icons}>
           
+          <p>Address</p>
+          </div>
           </Col>
 
           <Col span={24} md={8}>
-       
+          <div className={styles.icons}>
+          
+          <p>Contact Info</p>
+          </div>
         
           </Col>
 
@@ -34,7 +40,7 @@ export default function Footer() {
           
             <div className={styles.icons}>
           
-           
+            <p>Get in touch</p>
             </div>
           </Col>
         </Row>
