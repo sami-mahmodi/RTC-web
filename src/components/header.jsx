@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './header.module.css';
-import {Image} from 'antd'
 import NavLink from './nav-link';
+import Image from 'next/image';
 
 
 const NavLinks = props => (
@@ -20,6 +20,13 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
+     <Image
+      src="/logo.png"
+      width={100}
+      height={100}
+      alt="Picture of the author"
+    />
+      
     <NavLinks className={styles.navDesktop}/>
     </header>
   )

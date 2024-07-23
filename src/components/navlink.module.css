@@ -5,12 +5,12 @@
   font-weight: bold;
   margin: 0.4rem;
   color: #000;
-  transition: all 800ms ease;
+  transition: all 0.5s ease;
 }
 
 .link:hover {
   color: #fff;
-  background: yellow;
+  background: rgb(63, 156, 179);
 }
 
 .active {

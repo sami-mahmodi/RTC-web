@@ -167,12 +167,12 @@ a {
   font-weight: bold;
   margin: 0.4rem;
   color: #000;
-  transition: all 800ms ease;
+  transition: all 0.5s ease;
 }
 
 .navlink_link__lfN_p:hover {
   color: #fff;
-  background: yellow;
+  background: rgb(63, 156, 179);
 }
 
 .navlink_active__vV_8f {
