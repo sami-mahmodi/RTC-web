@@ -11,10 +11,8 @@ import Link from 'next/link';
 const NavLinks = props => (
   <nav {...props}>
     <NavLink to="/">Home</NavLink>
+    <NavLink to="/services">Services</NavLink>
     <NavLink to="/about">About</NavLink>
-    <NavLink to="/products">Products</NavLink>
-    <NavLink to="/network">Network</NavLink>
-    <NavLink to="/gallery">Gallery</NavLink>
     <NavLink to="/contact">Contact</NavLink>
   </nav>
 )
