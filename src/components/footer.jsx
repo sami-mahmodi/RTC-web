@@ -9,7 +9,7 @@ import {
   TwitterOutlined,
   InstagramOutlined,
 } from '@ant-design/icons'
-import * as styles from './footer.module.css'
+import  styles from './footer.module.css'
 
 
 export default function Footer() {
@@ -45,9 +45,7 @@ export default function Footer() {
           </Col>
         </Row>
       </footer>
-      <div className={styles.copyrights}>
-       
-      </div>
+     
     </>
   )
 }

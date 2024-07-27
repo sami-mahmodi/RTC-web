@@ -2,6 +2,7 @@
     background: #fff;
     border-top: 2px solid rgb(63, 156, 179);
     padding: 1.5rem 1rem;
+   
   }
   
   @media screen and (min-width: 768px) {
@@ -34,4 +35,8 @@
     font-size: 0.85rem;
     padding: 1.5rem;
     text-align: center;
+  }
+  .row{
+    display: flex;
+    justify-content: space-between;
   }

@@ -101,6 +101,7 @@ a {
     background: #fff;
     border-top: 2px solid rgb(63, 156, 179);
     padding: 1.5rem 1rem;
+   
   }
   
   @media screen and (min-width: 768px) {
@@ -133,6 +134,10 @@ a {
     font-size: 0.85rem;
     padding: 1.5rem;
     text-align: center;
+  }
+  .footer_row__jJCcb{
+    display: flex;
+    justify-content: space-between;
   }
 /*!****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/header.module.css ***!
