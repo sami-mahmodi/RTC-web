@@ -1,5 +1,5 @@
 .contactInfo {
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 2rem;
     background: #f9f9f9;
   }
   
@@ -22,7 +22,15 @@
   .form {
     padding: 1.5rem 1rem;
   }
-  
+  .span{
+    font-size: x-large;
+    font-weight: 300;
+    color: white;
+  }
+  .icons{
+    font-size: 1.5rem;
+    margin: 4px;
+  }
   .button{
     background-color: var(--primary-color);
     color: white;

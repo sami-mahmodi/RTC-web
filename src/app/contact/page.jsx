@@ -19,7 +19,16 @@ function Contact() {
         <Col span={24} md={12} className={styles.contactInfo}>
           <Title className={styles.title}>Where can you find us?</Title>
           <Paragraph className={styles.aboutItem}>
-            <CompassOutlined title='Address' />  Kabul, Afghanistan
+            <CompassOutlined className={styles.icons}/>  <span className={styles.span}>Kabul, Afghanistan</span>
+          </Paragraph>
+          <Paragraph className={styles.aboutItem}>
+            <PhoneOutlined className={styles.icons}/>  <span className={styles.span}>+93 (0) 786073070</span>
+          </Paragraph>
+          <Paragraph className={styles.aboutItem}>
+            <WhatsAppOutlined className={styles.icons}/>  <span className={styles.span}>+93 (0) 744821638</span>
+          </Paragraph>
+          <Paragraph className={styles.aboutItem}>
+            <MailOutlined className={styles.icons}/>  <span className={styles.span}>example123@gmail.com</span>
           </Paragraph>
 
         </Col>

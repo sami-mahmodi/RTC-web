@@ -1,18 +1,17 @@
 .footer {
     background: #fff;
-    border-top: 2px solid rgb(63, 156, 179);
-    padding: 1.5rem 1rem;
+    border-top: 2px solid var(--sec-color);
    
   }
-  
-  @media screen and (min-width: 768px) {
-    .footer {
-      padding: 1.5rem 3rem;
-    }
+
+  .row{
+    padding: 2rem 2rem;
   }
-  
   .heading {
-    color: var(--secondary-color) !important;
+    color: var(--sec-color) !important;
+    text-transform: uppercase;
+    
+
   }
   
   .icons {
@@ -22,7 +21,7 @@
   
   .icon {
     margin-right: 1rem;
-    color: var(--secondary-color);
+    color: var(--sec-color);
   }
   
   .icon:hover {
@@ -39,4 +38,13 @@
   .row{
     display: flex;
     justify-content: space-between;
+  }
+
+ 
+  .copyrights {
+    background: var(--sec-color);
+    color: #fff;
+    font-size: 0.85rem;
+    padding: 1.5rem;
+    text-align: center;
   }
