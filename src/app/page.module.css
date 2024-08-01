@@ -1,5 +1,15 @@
 .wrapper{
   padding: 1.5rem 2rem;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
+  margin: 0;
   min-height: 100vh;
+}
+
+.para{
+  font-size: 1.5rem;
+  color: var(--sec-color);
+  text-align: left;
+}
+.heading{
+  margin: 1rem 0;
 }

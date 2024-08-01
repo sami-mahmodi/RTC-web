@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ant-design/icons": "^5.3.7",
     "antd": "^5.19.1",
     "less": "^4.2.0",
     "less-loader": "^12.2.0",
