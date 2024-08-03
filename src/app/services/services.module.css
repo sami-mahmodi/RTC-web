@@ -7,10 +7,10 @@
     padding: 1rem;
 }
 .row{
-    background-color: var(--sec-color);
+    background-color: var(--primary-color);
     padding: 2rem;
     margin: 0;
 }
 .heading{
-    color: var(--sec-color);
+    color: var(--primary-color);
 }

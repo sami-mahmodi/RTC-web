@@ -18,7 +18,7 @@ export default function Home() {
           </p>
         </Col>
         <Col span={24} sm={10} md={11}>
-            <Image layout="fill" alt="Home Image" src='/assets/posters/poland.jpeg' style={{objectFit:'contain'}}/>
+            <Image layout="fill" alt="Home Image" src='/icons/home.svg' style={{objectFit:'contain'}}/>
            
           </Col>
       </Row>

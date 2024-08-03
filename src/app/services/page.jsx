@@ -13,12 +13,12 @@ const services = [
   {
     title: "Work Visa Guidance",
     description: "Our team provides expert advice and support for securing a work visa, including helping with documentation and understanding visa conditions.",
-    icon: "/icons/work-visa.svg" // Example icon path
+    icon: "/icons/workVisa.svg" // Example icon path
   },
   {
     title: "Tourist Visa Services",
     description: "We assist with the application process for tourist visas, providing guidance on required documents and ensuring a smooth application process.",
-    icon: "/icons/tourist-visa.svg" // Example icon path
+    icon: "/icons/tour.svg" // Example icon path
   },
 
 ];
@@ -26,7 +26,7 @@ const services = [
 
 const ResponsiveColumn = ({ title, description, icon }) => {
   return (
-    <Col xs={24} sm={12} md={8} lg={8} xl={8}>
+    <Col xs={24} sm={12} md={8} >
       <div className={styles.card}>
         <Image src={icon} alt={`${title} Icon`} height={180} width={180} />
         <h1 className={styles.heading}>{title}</h1>
@@ -39,8 +39,8 @@ const ResponsiveColumn = ({ title, description, icon }) => {
 
 function Services() {
   return (
-    <div>
-      <Row gutter={[16, 16]} className={styles.row}>
+    <div >
+      <Row gutter={[16, 16]} className={styles.row} >
         {services.map((service, index) => (
           <ResponsiveColumn
             key={index}
