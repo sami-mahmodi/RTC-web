@@ -37,7 +37,7 @@ export default function Header() {
         onClick={() => setVisible(true)}
       />
             <Drawer
-        title={name}
+        
         visible={visible}
         closeable={false}
         onClose={() => setVisible(false)}
