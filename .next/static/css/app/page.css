@@ -11,9 +11,7 @@
 
 .page_para__Iv0_Z{
   font-size: 2rem;
-  color: var(--primary-color);
-  text-align: justify;
-  margin-top: 1.5rem;
+  margin: 1rem;
   
 }
 .page_heading__ZPgh_{
@@ -21,3 +19,33 @@
   /* color: var(--primary-color); */
 }
 
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/homeSlider.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.homeSlider_slider__yT5sm {
+    padding: 0;
+    margin: 0;
+    height: 80vh;
+}
+.homeSlider_sliderimg__D2X8Q {
+    width: 100%;
+    object-fit: cover;
+    height: 46rem;
+    opacity: 80%;
+  }
+ 
+
+  .homeSlider_slick-dots__s_jIG li button:before {
+    font-size: 188px; /* Change size of the dots */
+    color: #ff5733; /* Change color of the dots */
+    opacity: 1; /* Make sure dots are fully visible */
+  }
+  
+  /* Customize active dot */
+  .homeSlider_slick-dots__s_jIG li.homeSlider_slick-active__c6Gq3 button:before {
+    color: #00ff00; /* Change color of the active dot */
+  }
+  .homeSlider_slick-dots__s_jIG {
+    bottom: 10px; /* Adjust position of dots */
+    text-align: center; /* Center the dots */
+  }

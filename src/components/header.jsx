@@ -19,7 +19,7 @@ const NavLinks = props => (
 
 
 export default function Header() {
-  const [visible, setVisible] = useState(false)
+  const [open, setOpen] = useState(false)
   return (
     <header className={styles.header}>
       <Link href='/'>
@@ -34,13 +34,13 @@ export default function Header() {
     <NavLinks className={styles.navDesktop}/>
     <MenuOutlined
         className={styles.toggleNav}
-        onClick={() => setVisible(true)}
+        onClick={() => setOpen(true)}
       />
             <Drawer
         
-        visible={visible}
+        open={open}
         closeable={false}
-        onClose={() => setVisible(false)}
+        onClose={() => setOpen(false)}
       >
         <NavLinks className={styles.navMobile} />
       </Drawer>

@@ -8,9 +8,7 @@
 
 .para{
   font-size: 2rem;
-  color: var(--primary-color);
-  text-align: justify;
-  margin-top: 1.5rem;
+  margin: 1rem;
   
 }
 .heading{
