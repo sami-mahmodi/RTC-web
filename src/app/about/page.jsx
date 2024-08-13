@@ -26,7 +26,7 @@ const AboutPage = () => {
       </section>
 
       <section className={styles.servicesSection}>
-        <h2 className={styles.sectionTitle}>Our Services</h2>
+        <h2 className={styles.sectionTitle}>Our Expertise</h2>
         <Row gutter={[16, 16]}>
         <Col xs={24} md={12} lg={8}>
   <Card className={styles.card} title="Consultation/Advising" bordered={false} hoverable>
