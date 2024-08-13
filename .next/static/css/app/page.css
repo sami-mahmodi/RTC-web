@@ -40,7 +40,7 @@
 
 .page_icon__AYuK3 {
   font-size: 48px;
-  color: #1890ff;
+  color: var(--primary-color);
   margin-bottom: 20px;
 }
 
@@ -88,6 +88,47 @@
     font-size: 32px;
   }
 }
+.page_whyRTCSSection__a2UNH {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+}
+
+.page_textContainer__g1_WS {
+  padding-right: 20px;
+}
+
+.page_title__3jonF {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.page_paragraph__9zKO8 {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.8;
+}
+
+.page_imageContainer__gQbWL {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page_sectionTitle__hzsAh {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.page_image__NPJyO {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: auto;
+}
+
 /*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/heroSection.module.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************/
