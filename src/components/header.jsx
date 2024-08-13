@@ -1,49 +1,56 @@
 'use client'
-import React,{useState} from 'react'
+import React, { useState } from 'react';
 import styles from './header.module.css';
 import NavLink from './nav-link';
-import { MenuOutlined } from '@ant-design/icons'
-import {Drawer} from 'antd'
+import { MenuOutlined } from '@ant-design/icons';
+import { Drawer } from 'antd';
 import Image from 'next/image';
 import Link from 'next/link';
 
 
-const NavLinks = props => (
-  <nav {...props}>
-    <NavLink to="/">Home</NavLink>
-    <NavLink to="/services">Services</NavLink>
-    <NavLink to="/about">About</NavLink>
-    <NavLink to="/contact">Contact</NavLink>
-  </nav>
-)
-
 
 export default function Header() {
-  const [open, setOpen] = useState(false)
+  const [show, setShow] = useState(false);
+
+
+
+
   return (
     <header className={styles.header}>
       <Link href='/'>
-     <Image
-      src="/logo.png"
-      width={100}
-      height={100}
-      alt="Picture of the author"
-      />
+        <Image
+          src="/logo.png"
+          width={100}
+          height={100}
+          alt="RTCS Logo"
+        />
       </Link>
       
-    <NavLinks className={styles.navDesktop}/>
-    <MenuOutlined
+      {/* Desktop Navigation */}
+      <nav className={styles.navDesktop}>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/services">Services</NavLink>
+        <NavLink to="/about">About</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
+      </nav>
+
+      <MenuOutlined
         className={styles.toggleNav}
-        onClick={() => setOpen(true)}
+        onClick={() => setShow(true)}
       />
-            <Drawer
-        
-        open={open}
+          <Drawer
+        open={show}
+        destroyOnClose
         closeable={false}
-        onClose={() => setOpen(false)}
+        onClose={() => setShow(false)}
       >
-        <NavLinks className={styles.navMobile} />
+        <nav className={styles.navMobile}>
+          <NavLink to="/" handleClick={()=> setShow(false)}>Home</NavLink>
+          <NavLink to="/services" handleClick={()=> setShow(false)}>Services</NavLink>
+          <NavLink to="/about" handleClick={()=> setShow(false)}>About</NavLink>
+          <NavLink to="/contact" handleClick={()=> setShow(false)}>Contact</NavLink>
+        </nav>
       </Drawer>
     </header>
-  )
+  );
 }
